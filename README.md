@@ -42,3 +42,10 @@
     php artisan db:seed
 ```
 
+
+
+<h4> if you want use docker to run with sail package</h4>
+
+```bash
+    ./vendor/bin/sail up
+```
