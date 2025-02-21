@@ -16,8 +16,19 @@ class TagsFactory extends Factory
      */
     public function definition(): array
     {
+        static $titles = null;
+
+        if ($titles === null) {
+            $titles = collect([
+                'PHP', 'C++', 'C', 'Golang', 'Rust', 'Actix-Web',
+                'Django', 'FastAPI', 'Rocket', 'Laravel', 'Gin',
+                'Gorilla', 'Drogon-HTTP'
+            ])->shuffle();
+        }
+
         return [
-            'name' => $this->faker->randomElement(['PHP', 'C++', 'C', 'Golang', 'Rust', 'Actix-Web', 'Django', 'FastAPI', 'Rocket', 'Laravel', 'Gin', 'Gorilla', 'Drogon-HTTP']),
+            // 'title' => $this->faker->randomElement(['PHP', 'C++', 'C', 'Golang', 'Rust', 'Actix-Web', 'Django', 'FastAPI', 'Rocket', 'Laravel', 'Gin', 'Gorilla', 'Drogon-HTTP']),
+            'title' => $titles->pop(),
             'created_at' => now(),
             'updated_at' => now(),
         ];

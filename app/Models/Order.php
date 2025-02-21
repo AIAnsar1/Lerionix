@@ -13,7 +13,7 @@ class Order extends Model
 
     protected $fillable = [
         'id',
-        'name',
+        'title',
         'subject',
         'email',
         'message',
@@ -31,7 +31,7 @@ class Order extends Model
     {
         return [
             'id' => 'integer',
-            'name' => 'string',
+            'title' => 'string',
             'subject' => 'string',
             'email' => 'string',
             'message' => 'string',

@@ -13,12 +13,12 @@ return new class extends Migration
     {
         Schema::create('portfolios', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
+            $table->string('title');
             $table->string('type');
             $table->string('photo');
             $table->text('description');
             $table->string('project_link');
-            $table->foreignId('tags_id')->constrained('tags')->cascadeOnUpdate()->cascadeOnDelete();
+            // $table->foreignId('tags_id')->constrained('tags')->cascadeOnUpdate()->cascadeOnDelete();
             $table->timestamps();
         });
     }

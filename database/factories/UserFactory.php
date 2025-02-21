@@ -25,12 +25,8 @@ class UserFactory extends Factory
     {
         return [
             'name' => fake()->firstName(),
-            'surname' => fake()->lastName(),
-            'age' => fake()->date('Y-m-d', '2025-01-01'),
             'email' => fake()->unique()->safeEmail(),
             'email_verified_at' => fake()->optional()->dateTime(),
-            'phone' => fake()->unique()->phoneNumber(),
-            'phone_verified_at' => fake()->optional()->dateTime(),
             'password' => static::$password ??= Hash::make('password'),
             'remember_token' => Str::random(10),
             'created_at' => now(),
@@ -45,7 +41,6 @@ class UserFactory extends Factory
     {
         return $this->state(fn (array $attributes) => [
             'email_verified_at' => null,
-            'phone_verified_at' => null,
         ]);
     }
 }

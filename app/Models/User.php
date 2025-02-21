@@ -19,12 +19,8 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name',
-        'surname',
-        'age',
         'email',
         'email_verified_at',
-        'phone',
-        'phone_verified_at',
         'password',
         'created_at',
         'updated_at',
@@ -49,12 +45,8 @@ class User extends Authenticatable
     {
         return [
             'name' => 'string',
-            'surname' => 'string',
-            'age' => 'datetime',
             'email' => 'string',
             'email_verified_at' => 'datetime',
-            'phone' => 'string',
-            'phone_verified_at' => 'datetime',
             'password' => 'string',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',

@@ -4,7 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Database\Eloquent\Relations\belongsToMany;
 
 class Tags extends Model
 {
@@ -13,7 +13,7 @@ class Tags extends Model
 
     protected $fillable = [
         'id',
-        'name',
+        'title',
         'created_at',
         'updated_at',
     ];
@@ -28,14 +28,14 @@ class Tags extends Model
     {
         return [
             'id' => 'integer',
-            'name' => 'string',
+            'title' => 'string',
             'created_at' => 'datetime',
             'updated_at' => 'datetime',
         ];
     }
 
-    public function portfolio(): BelongsTo
+    public function portfolio(): BelongsToMany
     {
-        return $this->belongsTo(Portfolio::class);
+        return $this->belongsToMany(Portfolio::class, 'portfolio_tags', 'tag_id', 'portfolio_id');
     }
 }
