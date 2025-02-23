@@ -26,7 +26,6 @@
 </head>
 
 <body class="body">
-
   <!-- start scroll to top button -->
   <div id="progress">
     <span id="progress-value"><i class="fa fa-arrow-up" aria-hidden="true"></i></span>
@@ -38,25 +37,58 @@
     <div class="spinner"></div>
   </div>
   <!-- end preLoader -->
+  <style>
+      :root {
+          --icon-color-light: black;   /* Черные иконки при светлой теме */
+          --icon-color-dark: white;    /* Белые иконки при темной теме */
+          --hover-glow: #02f291;       /* Зеленый цвет при наведении */
+      }
 
+      /* Светлая тема: черные иконки */
+      body.light-theme .social-link i {
+          color: var(--icon-color-light);
+          transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+      }
+
+      /* Темная тема: белые иконки */
+      body.dark-theme .social-link i {
+          color: var(--icon-color-dark);
+      }
+
+      /* ✅ Фикс: Наведение (всегда зелёный, в любой теме) */
+      body.light-theme .social-link:hover i,
+      body.dark-theme .social-link:hover i {
+          color: var(--hover-glow);
+          text-shadow: 0 0 8px var(--hover-glow);
+      }
+
+
+
+  </style>
   <!-- ======= start Header ======= -->
   <header class="header">
     <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container">
+      <div class="container d-flex align-items-center gap-3">
         <a href="{{ route('home') }}">
           <h3 class="heading-2 primary-text">Lerionix</h3>
         </a>
+          <div class="d-flex gap-3">
+              <a href="https://t.me/Lerionix" class="social-link"><i class="fa-brands fa-telegram icon-sm"></i></a>
+              <a href="https://www.instagram.com/lerionix" class="social-link"><i class="fa-brands fa-instagram icon-sm "></i></a>
+              <a href="https://x.com/Lerionix" class="social-link"><i class="fa-brands fa-x-twitter icon-sm"></i></a>
+              <a href="https://www.linkedin.com/in/Lerionix/?locale=en_US" class="social-link"><i class="fa-brands fa-linkedin-in icon-sm"></i></a>
+          </div>
         <!-- if you prefer to use an image as logo -->
         <!-- <a class="navbar-brand " href="#"><img src="images/logo/logo.png" class="logo" alt="LOGO"></a> -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <i class="fa-solid fa-bars"></i>
         </button>
-        
+
         <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
           <ul class="navbar-nav ms-auto" id="navbar">
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#hero">Home</a>
+              <a class="nav-link " aria-current="page" href="{{ route('home') }}">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -65,7 +97,7 @@
               <a class="nav-link" href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#portfolio">portfolio</a>
+              <a class="nav-link" href="{{ route('portfolio') }}">portfolio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contact">contact us</a>
@@ -73,9 +105,10 @@
           </ul>
           <div class="d-flex gap-2 ms-auto">
             <a class="btn" href="#contact">Get Started</a>
-            <button id="mode-toggle" class="btn-light-mode switch-button">
-              <i id="mode-icon" class="fa-solid fa-moon icon-md primary-text"></i>
-            </button>
+              <button id="mode-toggle" class="btn-light-mode switch-button">
+                  <i id="mode-icon" class="fa-solid fa-moon icon-md primary-text"></i>
+              </button>
+
           </div>
         </div>
       </div>
@@ -83,7 +116,7 @@
   </header>
   <!-- ======= end Header ======= -->
 
-  
+
   @yield('main')
 
 
@@ -102,6 +135,35 @@
 
   <!--  main js file  -->
   <script src="{{ asset('assets/main/js/main.js') }}"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          const modeToggle = document.getElementById("mode-toggle");
+          const body = document.body;
+
+          // Проверяем, какая тема была сохранена
+          if (localStorage.getItem("theme") === "dark") {
+              body.classList.add("dark-theme");
+              body.classList.remove("light-theme");
+          } else {
+              body.classList.add("light-theme");
+              body.classList.remove("dark-theme");
+          }
+
+          // Переключение темы при клике
+          modeToggle.addEventListener("click", function () {
+              if (body.classList.contains("dark-theme")) {
+                  body.classList.remove("dark-theme");
+                  body.classList.add("light-theme");
+                  localStorage.setItem("theme", "light");
+              } else {
+                  body.classList.remove("light-theme");
+                  body.classList.add("dark-theme");
+                  localStorage.setItem("theme", "dark");
+              }
+          });
+      });
+
+  </script>
 
 </body>
 

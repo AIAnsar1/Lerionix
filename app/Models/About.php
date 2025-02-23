@@ -45,4 +45,14 @@ class About extends Model
             'updated_at' => 'datetime',
         ];
     }
+
+
+    public function getQuestionsAttribute($value)
+    {
+        if (is_array($value)) {
+            return $value;
+        }
+
+        return json_decode($value, true);
+    }
 }

@@ -8,25 +8,24 @@
       <div class="d-flex flex-column text-center  gap-32  justify-content-center  align-items-center position-relative">
         <img class="shape blury" src="{{ asset('assets/main/images/shapes/bbblurry.svg') }}" alt="shape">
         <div class="d-flex flex-column text-center gap-16 justify-content-center  align-items-center position-relative">
-          <h1 class="heading-1 position-relative ">Experience the <span class="primary-text">Future</span> of IT
+          <h1 class="heading-1 position-relative ">🚀 <span class="primary-text">Lerionix</span> – Engineering the <span class="primary-text">Future</span> of IT
             Innovation Today</h1>
-          <p class="body-1 grey-text position-relative ">Transform your business with our innovative IT solutions. From
-            streamlined cloud integration to robust cybersecurity, we deliver tailored technology solutions for your
-            success. Stay ahead in the digital age with our expertise and passion for excellence.</p>
-          <a class="btn" href="#">get started</a>
+          <p class="body-1 grey-text position-relative ">At Lerionix, we don’t just build technology—we shape the future.
+            As a cutting-edge IT outsourcing company, we transform businesses with innovative, scalable, and secure technology solutions.</p>
+          <a class="btn" href="#contact">Get Started</a>
         </div>
         <div class="col-lg-10 col-12 row justify-content-between align-items-center ">
           <div class="col-lg-4 col-md-4 col-12 bordered-box">
-            <h1 class="heading-1 counter">59</h1>
-            <p class="body-1 grey-text">completed projects</p>
+            <h1 class="heading-1 counter">47</h1>
+            <p class="body-1 grey-text">Completed Projects</p>
           </div>
           <div class="col-lg-4 col-md-4 col-12 bordered-box">
-            <h1 class="heading-1 counter">08</h1>
-            <p class="body-1 grey-text">years of experience</p>
+            <h1 class="heading-1 counter">05</h1>
+            <p class="body-1 grey-text">Years Of Experience</p>
           </div>
           <div class="col-lg-4 col-md-4 col-12 bordered-box">
-            <h1 class="heading-1 counter">24</h1>
-            <p class="body-1 grey-text">hard workers</p>
+            <h1 class="heading-1 counter">22</h1>
+            <p class="body-1 grey-text">Hard Workers</p>
           </div>
         </div>
       </div>
@@ -47,20 +46,19 @@
             <div><i class="fa-solid fa-bug primary-text icon-lg"></i></div>
             <div class="d-flex flex-column gap-8">
               <h2 class="heading-2">
-                cyber security
+                Cyber Security 🛡️
               </h2>
               <p class="body-2">
-                Transform your business with our innovative IT solutions. From streamlined cloud integration to robust
-                cybersecurity, we deliver tailored technology
+                Protect your digital assets with cutting-edge cybersecurity solutions.
+                We safeguard your business with advanced threat detection, data encryption,
+                and proactive security strategies—ensuring your operations remain resilient against cyber threats.
               </p>
             </div>
           </div>
           <div class="col-lg-8 ps-lg-5 ps-md-5 ps-0  ">
-            <h1 class="heading-1">Powerful IT <span class="primary-text">Solutions</span> for Business Success</h1>
-            <p class="body-1">Transform your business with our innovative IT solutions. From streamlined cloud
-              integration to robust cybersecurity, we deliver tailored technology solutions for your success. Stay
-              ahead
-              in the digital age with our expertise and passion for excellence.</p>
+            <h1 class="heading-1">Lerionix  <span class="primary-text">Driving Innovation,</span> Powering Success</h1>
+            <p class="body-1">Unlock the full potential of your business with Lerionix – your trusted IT partner.
+              From cutting-edge cloud solutions to next-gen cybersecurity, we craft powerful, scalable, and secure technologies that drive growth.</p>
           </div>
         </div>
         <div class="row g-lg-0 g-md-4  g-4">
@@ -69,11 +67,11 @@
             <div><i class="fa-solid fa-laptop-code primary-text icon-lg"></i></div>
             <div class="d-flex flex-column gap-8">
               <h2 class="heading-2">
-                web developement
+                Web Development 💻
               </h2>
               <p class="body-2">
-                Transform your business with our innovative IT solutions. From streamlined cloud integration to robust
-                cybersecurity, we deliver tailored technology
+                Empower your online presence with stunning, high-performance websites. Our expert developers craft scalable,
+                responsive, and user-friendly web solutions that drive engagement, enhance user experience, and accelerate business growth.
               </p>
             </div>
           </div>
@@ -84,11 +82,11 @@
             <div><i class="fa-brands fa-sketch primary-text icon-lg"></i></div>
             <div class="d-flex flex-column gap-8">
               <h2 class="heading-2">
-                graphic design
+                Graphic Design 🎨
               </h2>
               <p class="body-2">
-                Transform your business with our innovative IT solutions. From streamlined cloud integration to robust
-                cybersecurity, we deliver tailored technology
+                Bring your brand to life with visually captivating designs. From logos and branding to digital and print media,
+                our creative experts craft designs that make a lasting impression and elevate your business identity.
               </p>
             </div>
           </div>
@@ -97,11 +95,11 @@
             <div><i class="fa-solid fa-magnifying-glass primary-text icon-lg"></i></div>
             <div class="d-flex flex-column gap-8">
               <h2 class="heading-2">
-                SEO services
+                SEO Services 🚀
               </h2>
               <p class="body-2">
-                Transform your business with our innovative IT solutions. From streamlined cloud integration to robust
-                cybersecurity, we deliver tailored technology
+                Boost your online visibility and dominate search results. Our strategic SEO solutions optimize
+                your website for higher rankings, increased traffic, and better conversions—connecting you with your ideal audience effortlessly.
               </p>
             </div>
           </div>
@@ -120,40 +118,41 @@
       <div class="d-flex flex-column gap-lg-0 gap-4">
         <div class="row justify-content-between  g-lg-0 g-md-0  g-4">
           <div class="col-lg-8 d-flex flex-column gap-16">
-            <h1 class="heading-1">Unlocking Innovation Through <span class="primary-text">Technology</span> Expertise
+            <h1 class="heading-1">Unlocking Innovation Through <span class="primary-text">Technology</span> Expertise 🚀
             </h1>
-            <p class="body-1">Transform your business with our innovative IT solutions. From streamlined cloud
-              integration to robust cybersecurity, we deliver tailored technology solutions for your success. Stay
-              ahead
-              in the digital age with our expertise and passion for excellence.</p>
+            <p class="body-1">Innovation meets expertise—empowering your business with cutting-edge technology solutions.
+              From seamless cloud integration to next-level cybersecurity, we craft tailored strategies that drive growth,
+              efficiency, and success. Stay ahead of the curve with a team that turns vision into reality.
+
+              Let’s shape the future—together. 💡✨</p>
           </div>
           <div class="bordered-box col-lg-3 padding-32 d-flex  flex-column  gap-32">
             <div><i class="fa-solid fa-globe primary-text icon-md"></i></div>
             <div class="d-flex flex-column gap-8">
               <h2 class="heading-3">
-                worldwide services
+                Worldwide Services 🌍
               </h2>
               <p class="body-2">
-                Transform your business with our innovative IT solutions. From streamlined cloud integration to robust
-                cybersecurity
+                Expand your reach with our global IT solutions. No matter where your business operates,
+                 we deliver innovative and scalable technology services that help you thrive in a competitive digital world.
               </p>
             </div>
           </div>
         </div>
         <div class="row g-lg-0 g-md-0  g-4">
           <div class="col-lg-3 mobile-none">
-            <a href="#" class="btn w-fit">get started</a>
+            <a href="#" class="btn w-fit">Get Started</a>
           </div>
           <div class="col-lg-3 mobile-none"></div>
           <div class="bordered-box col-lg-3 padding-32 d-flex  flex-column  gap-32">
             <div><i class="fa-solid fa-headset primary-text icon-md"></i></div>
             <div class="d-flex flex-column gap-8">
               <h2 class="heading-3">
-                support 24/7
+                24/7 Support 📞
               </h2>
               <p class="body-2">
-                Transform your business with our innovative IT solutions. From streamlined cloud integration to robust
-                cybersecurity
+                We're here when you need us—anytime, anywhere. Our dedicated support team ensures seamless
+                operations with round-the-clock assistance, quick troubleshooting, and expert guidance for uninterrupted business performance.
               </p>
             </div>
           </div>
@@ -165,11 +164,11 @@
             <div><i class="fa-regular fa-gem primary-text icon-md"></i></div>
             <div class="d-flex flex-column gap-8">
               <h2 class="heading-3">
-                Unique Solutions
+                Unique Solutions 🔥
               </h2>
               <p class="body-2">
-                Transform your business with our innovative IT solutions. From streamlined cloud integration to robust
-                cybersecurity
+                Stand out with tailor-made technology solutions.
+                 We create customized strategies and software designed specifically for your business needs, driving efficiency, innovation, and success.
               </p>
             </div>
           </div>
@@ -178,11 +177,11 @@
             <div><i class="fa-solid fa-gamepad primary-text icon-md"></i></div>
             <div class="d-flex flex-column gap-8">
               <h2 class="heading-3">
-                easy to reach
+                Easy to Reach 📩
               </h2>
               <p class="body-2">
-                Transform your business with our innovative IT solutions. From streamlined cloud integration to robust
-                cybersecurity
+                Connecting with us is effortless. Whether you need expert advice,
+                 IT support, or a custom solution, we are just a call or message away—ready to help you achieve your goals.
               </p>
             </div>
           </div>
@@ -192,131 +191,6 @@
   </section>
   <!-- ============== End about section ========== -->
 
-  <!-- ============== start section ========== -->
-  <section class="portfolio position-relative pt-4  mt-4 " id="portfolio">
-    <img class="shape blury blury-1" src="{{ asset('assets/main/images/shapes/bbblurry.svg') }}" alt="shape">
-    <img class="shape organise" src="{{ asset('assets/main/images/shapes/ooorganize.svg') }}" alt="shape">
-    <img class="shape blury blury-2" src="{{ asset('assets/main/images/shapes/bbblurry.svg') }}" alt="shape">
-    <div class="container section">
-      <div class="d-flex flex-column gap-32">
-        <div class="row justify-content-between  align-items-center ">
-          <div class="col-lg-10 d-flex flex-column gap-16">
-            <h1 class="heading-1"><span class="primary-text">Case Studies</span> of Our Impact</h1>
-            <p class="body-1">Transform your business with our innovative IT solutions. From streamlined cloud
-              integration to robust cybersecurity.</p>
-          </div>
-          <div class="col-lg-2 d-flex justify-content-end "><a href="#" class="btn w-fit">view more</a></div>
-        </div>
-        <div class="row justify-content-center  align-items-center g-4 ">
-          <div class="col-lg-4 col-md-6  col-12 d-flex flex-column">
-            <div class="bordered-box p-0">
-              <img src="{{ asset('assets/main/images/portfolio/portfolio1.jpeg') }}" alt="portfolio">
-              <div class="d-flex flex-column gap-8 padding-16">
-                <div class="d-flex flex-wrap  gap-2">
-                  <p class="body-1 p-0 m-0">#React</p>
-                  <p class="body-1 p-0 m-0">#HTML</p>
-                  <p class="body-1 p-0 m-0">#Nodejs</p>
-                  <p class="body-1 p-0 m-0">#Nextjs</p>
-                </div>
-                <div class="d-flex flex-column ">
-                  <h3 class="heading-2">NFT Landing page</h3>
-                  <p class="body-1">Website Developement</p>
-                </div>
-                <a href="#" class="learn-more">view project <i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6  col-12 d-flex flex-column">
-            <div class="bordered-box p-0">
-              <img src="{{ asset('assets/main/images/portfolio/portfolio2.png') }}" alt="portfolio">
-              <div class="d-flex flex-column gap-8 padding-16">
-                <div class="d-flex flex-wrap  gap-2">
-                  <p class="body-1 p-0 m-0">#React</p>
-                  <p class="body-1 p-0 m-0">#figma</p>
-                  <p class="body-1 p-0 m-0">#Nodejs</p>
-                  <p class="body-1 p-0 m-0">#Nextjs</p>
-                </div>
-                <div class="d-flex flex-column ">
-                  <h3 class="heading-2">NFT landing page uI/UX</h3>
-                  <p class="body-1">UI/UX design</p>
-                </div>
-                <a href="#" class="learn-more">view project <i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6  col-12 d-flex flex-column">
-            <div class="bordered-box p-0">
-              <img src="{{ asset('assets/main/images/portfolio/portfolio3.jpeg') }}" alt="portfolio">
-              <div class="d-flex flex-column gap-8 padding-16">
-                <div class="d-flex flex-wrap  gap-2">
-                  <p class="body-1 p-0 m-0">#React</p>
-                  <p class="body-1 p-0 m-0">#HTML</p>
-                  <p class="body-1 p-0 m-0">#Nextjs</p>
-                </div>
-                <div class="d-flex flex-column ">
-                  <h3 class="heading-2">NFT marketplace website</h3>
-                  <p class="body-1">Website Developement</p>
-                </div>
-                <a href="#" class="learn-more">view project <i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6  col-12 d-flex flex-column">
-            <div class="bordered-box p-0">
-              <img src="{{ asset('assets/main/images/portfolio/portfolio4.png') }}" alt="portfolio">
-              <div class="d-flex flex-column gap-8 padding-16">
-                <div class="d-flex flex-wrap  gap-2">
-                  <p class="body-1 p-0 m-0">#React</p>
-                  <p class="body-1 p-0 m-0">#HTML</p>
-                  <p class="body-1 p-0 m-0">#CSS</p>
-                </div>
-                <div class="d-flex flex-column ">
-                  <h3 class="heading-2">personal portfolio website</h3>
-                  <p class="body-1">Website Developement</p>
-                </div>
-                <a href="#" class="learn-more">view project <i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6  col-12 d-flex flex-column">
-            <div class="bordered-box p-0">
-              <img src="{{ asset('assets/main/images/portfolio/portfolio1.jpeg') }}" alt="portfolio">
-              <div class="d-flex flex-column gap-8 padding-16">
-                <div class="d-flex flex-wrap  gap-2">
-                  <p class="body-1 p-0 m-0">#React</p>
-                  <p class="body-1 p-0 m-0">#HTML</p>
-                  <p class="body-1 p-0 m-0">#Nextjs</p>
-                </div>
-                <div class="d-flex flex-column ">
-                  <h3 class="heading-2">personal portfolio website</h3>
-                  <p class="body-1">Website Developement</p>
-                </div>
-                <a href="#" class="learn-more">view project <i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6  col-12 d-flex flex-column">
-            <div class="bordered-box p-0">
-              <img src="{{ asset('assets/main/images/portfolio/portfolio2.png') }}" alt="portfolio">
-              <div class="d-flex flex-column gap-8 padding-16">
-                <div class="d-flex flex-wrap  gap-2">
-                  <p class="body-1 p-0 m-0">#React</p>
-                  <p class="body-1 p-0 m-0">#HTML</p>
-                  <p class="body-1 p-0 m-0">#Nextjs</p>
-                </div>
-                <div class="d-flex flex-column ">
-                  <h3 class="heading-2">Blog website</h3>
-                  <p class="body-1">Website Developement</p>
-                </div>
-                <a href="#" class="learn-more">view project <i class="fa-solid fa-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ============== End portfolio section ========== -->
 
   <!-- ============== start testimonials section ========== -->
   <section class="testimonials position-relative pt-4 mt-4" id="team">
@@ -326,173 +200,61 @@
     <div class="d-flex flex-column gap-16 section">
       <div class="container">
         <div class="col-lg-10 d-flex flex-column gap-16">
-          <h1 class="heading-1 col-12 "><span class="primary-text">testimonials</span> from Satisfied Partners</h1>
-          <p class="body-1">Transform your business with our innovative IT solutions. From streamlined cloud
-            integration to robust cybersecurity.</p>
+          <h1 class="heading-1 col-12 "><span class="primary-text">Еestimonials</span> Аrom Satisfied Partners 🌟</h1>
+          <p class="body-1">Real success, real stories. Our partners trust us to deliver innovative IT solutions—seamless cloud integration,
+            rock-solid cybersecurity, and beyond. See how we’ve helped businesses like yours thrive in the digital era.</p>
         </div>
       </div>
-      <div class="scroller" data-speed="fast">
-        <div class="scroller__inner ">
-          <div class="bordered-box d-flex flex-lg-row flex-column  gap-16">
-            <div class="img padding-8">
-              <img src="{{ asset('assets/main/images/testimonials/testimonials-1.jpg') }}" alt="person">
-            </div>
-            <div class="d-flex flex-column gap-8">
-              <p class="body-1">
-                They’re probably one of the easiest vendors I’ve ever worked with in the digital space. They have our
-                best interests in mind. The team went the extra mile in negotiating costs and delivering within a
-                flexible scope. They’re customer focused and strong in terms of development quality.
-              </p>
-              <hr>
-              <div class="d-flex flex-lg-row flex-column  justify-content-between align-items-start ">
-                <div class="d-flex flex-column">
-                  <h3 class="heading-3">john smith</h3>
-                  <p class="body-1">web developer</p>
-                </div>
-                <div class="d-flex gap-2 ">
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                </div>
-              </div>
-            </div>
+      <div class="scroller" data-speed="slow">
+        <div class="scroller__inner">
+          @foreach ($team as $members)
+         <div class="bordered-box flex-lg-row flex-column  d-flex gap-16">
+          <div class="img padding-8">
+            <img src="{{ asset('storage/' . $members->photo) }}" alt="person">
           </div>
-          <div class="bordered-box d-flex flex-lg-row flex-column   gap-16">
-            <div class="img padding-8">
-              <img src="{{ asset('assets/main/images/testimonials/testimonials-2.jpg') }}" alt="person">
-            </div>
-            <div class="d-flex flex-column gap-8">
-              <p class="body-1">
-                They’re probably one of the easiest vendors I’ve ever worked with in the digital space. They have our
-                best interests in mind. The team went the extra mile in negotiating costs and delivering within a
-                flexible scope. They’re customer focused and strong in terms of development quality.
-              </p>
-              <hr>
-              <div class="d-flex flex-lg-row flex-column justify-content-between align-items-start ">
-                <div class="d-flex flex-column">
-                  <h3 class="heading-3">ahmad errami</h3>
-                  <p class="body-1">front-end developer</p>
-                </div>
-                <div class="d-flex gap-2 ">
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                </div>
+          <div class="d-flex flex-column gap-8">
+            <p class="body-1">
+              {{ $members->description }}
+            </p>
+            <hr>
+            <div class="d-flex flex-lg-row flex-column  justify-content-between align-items-start ">
+              <div class="d-flex flex-column">
+                <h3 class="heading-3">{{ $members->name }}g</h3>
+                <p class="body-1">{{ $members->profession }}r</p>
               </div>
-            </div>
-          </div>
-          <div class="bordered-box flex-lg-row flex-column  d-flex gap-16">
-            <div class="img padding-8">
-              <img src="{{ asset('assets/main/images/testimonials/testimonials-3.jpg') }}" alt="person">
-            </div>
-            <div class="d-flex flex-column gap-8">
-              <p class="body-1">
-                They’re probably one of the easiest vendors I’ve ever worked with in the digital space. They have our
-                best interests in mind. The team went the extra mile in negotiating costs and delivering within a
-                flexible scope. They’re customer focused and strong in terms of development quality.
-              </p>
-              <hr>
-              <div class="d-flex flex-lg-row flex-column  justify-content-between align-items-start ">
-                <div class="d-flex flex-column">
-                  <h3 class="heading-3">walter white</h3>
-                  <p class="body-1">front-end developer</p>
-                </div>
-                <div class="d-flex gap-2 ">
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                </div>
+              <div class="d-flex gap-2 ">
+                {!! str_repeat('<i class="fa-solid fa-star primary-text icon-sm"></i>', 5) !!}
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="scroller" data-speed="fast" data-direction="right">
+         @endforeach
+        </div>
+    </div>
+      <div class="scroller" data-speed="slow" data-direction="right">
         <div class="scroller__inner ">
-          <div class="bordered-box flex-lg-row flex-column  d-flex gap-16">
-            <div class="img padding-8">
-              <img src="{{ asset('assets/main/images/testimonials/testimonials-5.jpg') }}" alt="person">
-            </div>
-            <div class="d-flex flex-column gap-8">
-              <p class="body-1">
-                They’re probably one of the easiest vendors I’ve ever worked with in the digital space. They have our
-                best interests in mind. The team went the extra mile in negotiating costs and delivering within a
-                flexible scope. They’re customer focused and strong in terms of development quality.
-              </p>
-              <hr>
-              <div class="d-flex flex-lg-row flex-column  justify-content-between align-items-start ">
-                <div class="d-flex flex-column">
-                  <h3 class="heading-3">robert fring</h3>
-                  <p class="body-1">web developer</p>
-                </div>
-                <div class="d-flex gap-2 ">
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                </div>
+         @foreach ($team as $members)
+         <div class="bordered-box flex-lg-row flex-column  d-flex gap-16">
+          <div class="img padding-8">
+            <img src="{{ asset('storage/' . $members->photo) }}" alt="person">
+          </div>
+          <div class="d-flex flex-column gap-8">
+            <p class="body-1">
+              {{ $members->description }}
+            </p>
+            <hr>
+            <div class="d-flex flex-lg-row flex-column  justify-content-between align-items-start ">
+              <div class="d-flex flex-column">
+                <h3 class="heading-3">{{ $members->name }}g</h3>
+                <p class="body-1">{{ $members->profession }}r</p>
+              </div>
+              <div class="d-flex gap-2 ">
+                {!! str_repeat('<i class="fa-solid fa-star primary-text icon-sm"></i>', 5) !!}
               </div>
             </div>
           </div>
-          <div class="bordered-box d-flex flex-lg-row flex-column  gap-16">
-            <div class="img padding-8">
-              <img src="{{ asset('assets/main/images/testimonials/testimonials-4.jpg') }}" alt="person">
-            </div>
-            <div class="d-flex flex-column gap-8">
-              <p class="body-1">
-                They’re probably one of the easiest vendors I’ve ever worked with in the digital space. They have our
-                best interests in mind. The team went the extra mile in negotiating costs and delivering within a
-                flexible scope. They’re customer focused and strong in terms of development quality.
-              </p>
-              <hr>
-              <div class="d-flex flex-lg-row flex-column  justify-content-between align-items-start ">
-                <div class="d-flex flex-column">
-                  <h3 class="heading-3">ahmad errami</h3>
-                  <p class="body-1">front-end developer</p>
-                </div>
-                <div class="d-flex gap-2 ">
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="bordered-box d-flex flex-lg-row flex-column  gap-16">
-            <div class="img padding-8">
-              <img src="{{ asset('assets/main/images/testimonials/testimonials-1.jpg') }}" alt="person">
-            </div>
-            <div class="d-flex flex-column gap-8 text">
-              <p class="body-1">
-                They’re probably one of the easiest vendors I’ve ever worked with in the digital space. They have our
-                best interests in mind. The team went the extra mile in negotiating costs and delivering within a
-                flexible scope. They’re customer focused and strong in terms of development quality.
-              </p>
-              <hr>
-              <div class="d-flex flex-lg-row flex-column  justify-content-between align-items-start ">
-                <div class="d-flex flex-column">
-                  <h3 class="heading-3">john doe</h3>
-                  <p class="body-1">front-end developer</p>
-                </div>
-                <div class="d-flex gap-2 ">
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                  <i class="fa-solid fa-star primary-text icon-sm"></i>
-                </div>
-              </div>
-            </div>
-          </div>
+        </div>
+         @endforeach
         </div>
       </div>
     </div>
@@ -644,7 +406,7 @@
         <hr>
         <div class="row justify-content-between   align-items-center   g-4 ">
           <div class="col-lg-7 col-12">
-            <h1 class="heading-1 "><span class="primary-text">contact us </span>for Free Consultation!
+            <h1 class="heading-1 "><span class="primary-text">Get in Touch </span>for a Free Consultation! 💬✨
             </h1>
           </div>
           <div class="d-flex flex-column gap-8 col-lg-5 col-12 ">
@@ -652,7 +414,7 @@
               <input type="text" placeholder="example@example.com" class="h-100 w-75 ps-3 ">
               <button class="btn w-25">subscribe</button>
             </div>
-            <p class="body-1">join our newsletter</p>
+            <p class="body-1">📢 Join Our Newsletter & Stay Updated! 🚀</p>
           </div>
         </div>
         <hr>
@@ -667,102 +429,47 @@
     <img class="shape blury blury-1" src="{{ asset('assets/main/images/shapes/bbblurry.svg') }}" alt="shape">
     <div class="container section">
       <div class="d-flex flex-column">
-        <div class="row justify-content-between ">
-          <h1 class="heading-1 col-lg-8 col-12">Meet Our Expert <span class="primary-text">Team</span> of Tech Pioneers
-          </h1>
-          <div class="col-lg-3 col-12 m-0 p-0 position-relative mt-lg-0 mt-4 ">
-            <img src="{{ asset('assets/main/images/testimonials/testimonials-1.jpg') }}" alt="team">
-            <div class="content-overlay gap-8 ">
+        <div class="row justify-content-between">
+          <h1 class="heading-1 col-lg-8 col-12">Meet Our Visionary <span class="primary-text">Team</span> of Tech Innovators 🚀</h1>
+          @foreach ($team as $member)
+          <div class="col-lg-3 col-12 m-0 p-0 position-relative mt-lg-0 mt-4">
+            <img src="{{ asset('storage/' . $member->photo) }}" alt="{{ $member->name }}">
+            <div class="content-overlay gap-8">
               <div>
-                <h2 class="heading-2 m-0 p-0 ">eliot alderson</h2>
-                <p class="body-1 m-0 p-0 ">blockchain developer</p>
+                <h2 class="heading-2 m-0 p-0">{{ $member->name }}</h2>
+                <p class="body-1 m-0 p-0">{{ $member->profession }}</p>
               </div>
+              @if (!empty($member->socials_networks) && is_array($member->socials_networks))
               <div class="icons d-flex gap-2">
-                <div class="icon bordered-box d-flex justify-content-center align-items-center ">
-                  <a href="#"><i class="fa-brands fa-facebook-f primary-text icon-sm"></i></a>
-                </div>
-                <div class="icon bordered-box d-flex justify-content-center align-items-center ">
-                  <a href="#"><i class="fa-brands fa-instagram primary-text  icon-sm"></i></a>
-                </div>
-                <div class="icon bordered-box d-flex justify-content-center align-items-center ">
-                  <a href="#"><i class="fa-brands fa-x-twitter primary-text  icon-sm"></i></a>
-                </div>
+                @foreach ($member->socials_networks as $platform => $link)
+                  @if (!empty($link) && filter_var($link, FILTER_VALIDATE_URL))
+                  <div class="icon bordered-box d-flex justify-content-center align-items-center">
+                    <a href="{{ $link }}" target="_blank" rel="noopener noreferrer">
+                      @if ($platform === 'Instagram')
+                        <i class="fa-brands fa-instagram primary-text icon-sm"></i>
+                      @elseif ($platform === 'Telegram')
+                        <i class="fa-brands fa-telegram primary-text icon-sm"></i>
+                      @elseif ($platform === 'X')
+                        <i class="fa-brands fa-x-twitter primary-text icon-sm"></i>
+                      @endif
+                    </a>
+                  </div>
+                  @endif
+                @endforeach
               </div>
+              @endif
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-12 m-0 p-0 position-relative mt-lg-0 mt-4 ">
-            <img src="{{ asset('assets/main/images/testimonials/testimonials-2.jpg') }}" alt="team">
-            <div class="content-overlay gap-8 ">
-              <div>
-                <h2 class="heading-2 m-0 p-0 ">john smith</h2>
-                <p class="body-1 m-0 p-0 ">UI designer</p>
-              </div>
-              <div class="icons d-flex gap-2">
-                <div class="icon bordered-box d-flex justify-content-center align-items-center ">
-                  <a href="#"><i class="fa-brands fa-facebook-f primary-text  icon-sm"></i></a>
-                </div>
-                <div class="icon bordered-box d-flex justify-content-center align-items-center ">
-                  <a href="#"><i class="fa-brands fa-instagram primary-text  icon-sm"></i></a>
-                </div>
-                <div class="icon bordered-box d-flex justify-content-center align-items-center ">
-                  <a href="#"><i class="fa-brands fa-x-twitter primary-text  icon-sm"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-12 mobile-none m-0 p-0 "></div>
-          <div class="col-lg-3 col-12 m-0 p-0 position-relative mt-lg-0 mt-4 ">
-            <img src="{{ asset('assets/main/images/testimonials/testimonials-3.jpg') }}" alt="team">
-            <div class="content-overlay gap-8 ">
-              <div>
-                <h2 class="heading-2 m-0 p-0 ">john doe</h2>
-                <p class="body-1 m-0 p-0 ">back-end developer</p>
-              </div>
-              <div class="icons d-flex gap-2">
-                <div class="icon bordered-box d-flex justify-content-center align-items-center ">
-                  <a href="#"><i class="fa-brands fa-facebook-f primary-text  icon-sm"></i></a>
-                </div>
-                <div class="icon bordered-box d-flex justify-content-center align-items-center ">
-                  <a href="#"><i class="fa-brands fa-instagram primary-text  icon-sm"></i></a>
-                </div>
-                <div class="icon bordered-box d-flex justify-content-center align-items-center ">
-                  <a href="#"><i class="fa-brands fa-x-twitter primary-text  icon-sm"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-12 mobile-none m-0 p-0 "></div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-12 mobile-none m-0 p-0 "></div>
-          <div class="col-lg-3 col-12 m-0 p-0 position-relative mt-lg-0 mt-4 ">
-            <img src="{{ asset('assets/main/images/testimonials/testimonials-5.jpg') }}" alt="team">
-            <div class="content-overlay gap-8 ">
-              <div>
-                <h2 class="heading-2 m-0 p-0 ">ahmad errami</h2>
-                <p class="body-1 m-0 p-0 ">front-end developer</p>
-              </div>
-              <div class="icons d-flex gap-2">
-                <div class="icon bordered-box d-flex justify-content-center align-items-center ">
-                  <a href="#"><i class="fa-brands fa-facebook-f primary-text  icon-sm"></i></a>
-                </div>
-                <div class="icon bordered-box d-flex justify-content-center align-items-center ">
-                  <a href="#"><i class="fa-brands fa-instagram primary-text  icon-sm"></i></a>
-                </div>
-                <div class="icon bordered-box d-flex justify-content-center align-items-center ">
-                  <a href="#"><i class="fa-brands fa-x-twitter primary-text  icon-sm"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-12 mobile-none m-0 p-0 "></div>
-          <div class="col-lg-3 col-12 mobile-none m-0 p-0 "></div>
+          @endforeach
         </div>
       </div>
     </div>
-  </section>
+</section>
+
+
+
+
+
   <!-- ============== end team section ========== -->
 
 
@@ -771,103 +478,37 @@
     <img class="shape blury blury-1" src="{{ asset('assets/main/images/shapes/bbblurry.svg') }}" alt="shape">
     <img class="shape blury blury-2" src="{{ asset('assets/main/images/shapes/bbblurry.svg') }}" alt="shape">
     <div class="container section">
-      <h1 class="heading-1 col-lg-8 pb-4 mb-4 ">Common Questions, Clear <span class="primary-text">Answers</span></h1>
+      <h1 class="heading-1 col-lg-8 pb-4 mb-4 ">Got Questions? We've Got the Answers <span class="primary-text">Straightforward & Clear!</span></h1>
       <div class="d-flex flex-column  gap-16">
-        <div class="bordered-box">
-          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-            onclick="rotateIcon('icon1')" aria-expanded="false">
-            <div class="d-flex justify-content-between w-100 ">
-              <h4 class="heading-3 m-0 p-0">
-                Do you offer both on-site and remote IT
-                support?
-              </h4>
-              <i id="icon1" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
-            </div>
-          </button>
-          <div class="collapse" id="collapseOne">
-            <p class="body-1 mt-4">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum ullam earum itaque, quas labore illo
-              eligendi iure asperiores, modi veniam molestiae vero quasi. Ex, alias modi voluptates aspernatur
-              consequuntur facere?
-            </p>
-          </div>
-        </div>
+          @php
+              $questions = collect($about)
+                  ->pluck('questions')
+                  ->map(fn($q) => is_string($q) ? json_decode($q, true) : $q) // Декодируем JSON
+                  ->flatten(1) // Разворачиваем вложенные массивы
+                  ->toArray();
+          @endphp
 
-        <div class="bordered-box">
-          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
-            onclick="rotateIcon('icon2')" aria-expanded="false">
-            <div class="d-flex justify-content-between w-100 ">
-              <h4 class="heading-3 m-0 p-0">
-                What is your approach to handling IT emergencies and downtime?
-              </h4>
-              <i id="icon2" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
-            </div>
-          </button>
-          <div class="collapse" id="collapseTwo">
-            <p class="body-1 mt-4">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum ullam earum itaque, quas labore illo
-              eligendi iure asperiores, modi veniam molestiae vero quasi. Ex, alias modi voluptates aspernatur
-              consequuntur facere?
-            </p>
-          </div>
-        </div>
+          @foreach ($questions as $qa)
+              @if (is_array($qa) && isset($qa['question'], $qa['answer']))
+                  <div class="bordered-box">
+                      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ Str::slug($qa['question']) }}"
+                              onclick="rotateIcon('{{ Str::slug($qa['question']) }}-icon')" aria-expanded="false">
+                          <div class="d-flex justify-content-between w-100">
+                              <h4 class="heading-3 m-0 p-0">
+                                  {{ $qa['question'] }}
+                              </h4>
+                              <i id="{{ Str::slug($qa['question']) }}-icon" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
+                          </div>
+                      </button>
+                      <div class="collapse" id="collapse-{{ Str::slug($qa['question']) }}">
+                          <p class="body-1 mt-4">
+                              {{ $qa['answer'] }}
+                          </p>
+                      </div>
+                  </div>
+              @endif
+          @endforeach
 
-        <div class="bordered-box">
-          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
-            onclick="rotateIcon('icon3')" aria-expanded="false">
-            <div class="d-flex justify-content-between w-100 ">
-              <h4 class="heading-3 m-0 p-0">
-                What types of IT services does your company provide?
-              </h4>
-              <i id="icon3" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
-            </div>
-          </button>
-          <div class="collapse" id="collapseThree">
-            <p class="body-1 mt-4">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum ullam earum itaque, quas labore illo
-              eligendi iure asperiores, modi veniam molestiae vero quasi. Ex, alias modi voluptates aspernatur
-              consequuntur facere?
-            </p>
-          </div>
-        </div>
-
-        <div class="bordered-box">
-          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour"
-            onclick="rotateIcon('icon4')" aria-expanded="false">
-            <div class="d-flex justify-content-between w-100 ">
-              <h4 class="heading-3 m-0 p-0">
-                How experienced is your team in handling complex IT projects?
-              </h4>
-              <i id="icon4" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
-            </div>
-          </button>
-          <div class="collapse" id="collapsefour">
-            <p class="body-1 mt-4">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum ullam earum itaque, quas labore illo
-              eligendi iure asperiores, modi veniam molestiae vero quasi. Ex, alias modi voluptates aspernatur
-              consequuntur facere?
-            </p>
-          </div>
-        </div>
-
-        <div class="bordered-box">
-          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive"
-            onclick="rotateIcon('icon5')" aria-expanded="false">
-            <div class="d-flex justify-content-between w-100 ">
-              <h4 class="heading-3 m-0 p-0">
-                How do you ensure smooth communication and collaboration during IT projects?
-              </h4>
-              <i id="icon5" class="fa-solid fa-chevron-down mx-4 icon-sm primary-text rotate-icon"></i>
-            </div>
-          </button>
-          <div class="collapse" id="collapseFive">
-            <p class="body-1 mt-4">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum ullam earum itaque, quas labore illo
-              eligendi iure asperiores, modi veniam molestiae vero quasi. Ex, alias modi voluptates aspernatur
-              consequuntur facere?
-            </p>
-          </div>
-        </div>
       </div>
     </div>
   </section>
@@ -880,7 +521,7 @@
     <img class="shape blury blury-1" src="{{ asset('assets/main/images/shapes/bbblurry.svg') }}" alt="shape">
     <img class="shape blury blury-2" src="{{ asset('assets/main/images/shapes/bbblurry.svg') }}" alt="shape">
     <div class="container section">
-      <h1 class="heading-1 col-lg-8 pb-4 mb-4 ">Let's Discuss Your <span class="primary-text">IT Needs</span></h1>
+      <h1 class="heading-1 col-lg-8 pb-4 mb-4 ">🌍 Lerionix – Transforming Ideas <span class="primary-text">into Digital Reality</span></h1>
       <div class="row g-4">
         <div class="col-lg-6 col-12 ">
           <div class="d-flex flex-column  gap-32">
@@ -894,51 +535,63 @@
             <div class="d-flex flex-column gap-16 w-100 ">
               <div class="d-flex gap-16">
                 <i class="fa-solid fa-phone primary-text  icon-md"></i>
-                <h3 class="heading-2 m-0 p-0 ">+123 456 7894</h3>
+                <h3 class="heading-2 m-0 p-0 ">+998 91 140 31 15</h3>
               </div>
               <hr class="m-0 p-0 ">
             </div>
             <div class="d-flex flex-column gap-16 w-100 ">
               <div class="d-flex gap-16">
                 <i class="fa-solid fa-envelope primary-text  icon-md"></i>
-                <h3 class="heading-2 m-0 p-0 text-lowercase">example@example.com</h3>
+                <h3 class="heading-2 m-0 p-0 text-lowercase">AyyubhonNematov@gmail.com</h3>
               </div>
               <hr class="m-0 p-0 ">
             </div>
             <iframe class="contact-map w-100 "
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.9050207912896!2d-0.14675028449633118!3d51.514958479636384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ad554c335c1%3A0xda2164b934c67c1a!2sOxford+St%2C+London%2C+UK!5e0!3m2!1sen!2sro!4v1485889312335"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57679.77226713043!2d70.90314314567188!3d40.531592551531546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38baeeeb2e1c3e7f%3A0x816d723cc5842908!2z0JrQvtC60LDQvdC0LCDQpNC10YDQs9Cw0L3RgdC60LDRjyDQntCx0LvQsNGB0YLRjCwg0KPQt9Cx0LXQutC40YHRgtCw0L0!5e1!3m2!1sru!2s!4v1740302460360!5m2!1sru!2s"  referrerpolicy="no-referrer-when-downgrade""
               allowfullscreen="">
             </iframe>
           </div>
         </div>
         <div class="col-lg-6 col-12 ">
-          <form action="contact.php" method="post" class="main-form d-flex flex-column gap-32">
-            <div class="row g-4">
-              <div class="col-lg-6 col-12">
-                <div class="d-flex flex-column w-100 gap-8">
-                  <h3 class="heading-3">name <span class="primary-text">*</span></h3>
-                  <input type="text" id="name" name="name" placeholder="john doe" required class="bordered-box">
+            <form action="{{ route('order') }}" method="POST" class="main-form d-flex flex-column gap-32">
+                @csrf
+                <div class="row g-4">
+                    <div class="col-lg-6 col-12">
+                        <div class="d-flex flex-column w-100 gap-8">
+                            <h3 class="heading-3">Name <span class="primary-text">*</span></h3>
+                            <input type="text" id="title" name="title" placeholder="John Doe" required class="bordered-box" value="{{ old('title') }}">
+                            @error('title')
+                            <span class="text-danger">{{ $message }}</span>
+                            @enderror
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="d-flex flex-column w-100 gap-8">
+                            <h3 class="heading-3">Subject <span class="primary-text">*</span></h3>
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required class="bordered-box" value="{{ old('subject') }}">
+                            @error('subject')
+                            <span class="text-danger">{{ $message }}</span>
+                            @enderror
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-lg-6 col-12">
                 <div class="d-flex flex-column w-100 gap-8">
-                  <h3 class="heading-3">subject <span class="primary-text">*</span></h3>
-                  <input type="text" id="subject" name="subject" placeholder="subject" required class="bordered-box">
+                    <h3 class="heading-3">Email <span class="primary-text">*</span></h3>
+                    <input type="email" id="email" name="email" placeholder="example@example.com" required class="bordered-box" value="{{ old('email') }}">
+                    @error('email')
+                    <span class="text-danger">{{ $message }}</span>
+                    @enderror
                 </div>
-              </div>
-            </div>
-            <div class="d-flex flex-column w-100  gap-8">
-              <h3 class="heading-3">email <span class="primary-text">*</span></h3>
-              <input type="email" id="email" name="email" placeholder="example@example.com" required
-                class="bordered-box">
-            </div>
-            <div class="d-flex flex-column w-100  gap-8">
-              <h3 class="heading-3">message <span class="primary-text">*</span></h3>
-              <textarea id="message" name="message" placeholder="your message" required cols="30" rows="10"
-                class="bordered-box"></textarea>
-            </div>
-            <button type="submit" value="Submit" class="btn w-fit">send now</button>
-          </form>
+                <div class="d-flex flex-column w-100 gap-8">
+                    <h3 class="heading-3">Message <span class="primary-text">*</span></h3>
+                    <textarea id="message" name="message" placeholder="Your message" required cols="30" rows="10" class="bordered-box">{{ old('message') }}</textarea>
+                    @error('message')
+                    <span class="text-danger">{{ $message }}</span>
+                    @enderror
+                </div>
+                <button type="submit" value="Submit" class="btn w-fit">Send Now</button>
+            </form>
+
         </div>
       </div>
     </div>
@@ -962,10 +615,10 @@
           <a href="#" class="footer-link">contact</a>
         </div>
         <div class="d-flex justify-content-center  gap-16 col-lg-3 col-md-6 col-12 mt-lg-0 mt-2 ">
-          <a href="#"><i class="fa-brands fa-facebook-f   icon-sm"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram   icon-sm"></i></a>
-          <a href="#"><i class="fa-brands fa-x-twitter  icon-sm"></i></a>
-          <a href="#"><i class="fa-brands fa-linkedin-in  icon-sm"></i></a>
+            <a href="https://t.me/Lerionix" class="social-link"><i class="fa-brands fa-telegram icon-sm"></i></a>
+            <a href="https://www.instagram.com/lerionix" class="social-link"><i class="fa-brands fa-instagram icon-sm "></i></a>
+            <a href="https://x.com/Lerionix" class="social-link"><i class="fa-brands fa-x-twitter icon-sm"></i></a>
+            <a href="https://www.linkedin.com/in/Lerionix/?locale=en_US" class="social-link"><i class="fa-brands fa-linkedin-in icon-sm"></i></a>
         </div>
         <div class="col-lg-3 col-md-6 col-12 d-flex  justify-content-md-end justify-content-center  mt-lg-0 mt-2">
           <p class="copy">copyright © 2024 imal</p>

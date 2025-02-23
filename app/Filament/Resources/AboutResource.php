@@ -9,7 +9,7 @@ use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Columns\{TextColumn, BadgeColumn};
-use Filament\Forms\Components\{CheckboxList, KeyValue, Select, TextInput};
+use Filament\Forms\Components\{CheckboxList, KeyValue, Select, TextInput, Textare, Repeater, Textarea};
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\{Builder, SoftDeletingScope};
 
@@ -24,10 +24,45 @@ class AboutResource extends Resource
         return $form
             ->schema([
                 TextInput::make('title')->maxLength(255)->required(),
-                KeyValue::make('socials_networks')->keyLabel('Социальные Сети')
-                ->valueLabel('Ссылка на Социальную Сеть')->addButtonLabel('Добавить Соц Сеть')->required(),
-                KeyValue::make('questions')->keyLabel('Добавить Вопрос и Ответ')
-                ->valueLabel('Вопрос и Ответ')->addButtonLabel('Добавить Вопрос и Ответ')->required(),
+                Repeater::make('socials_networks')
+                ->label('Социальные сети')
+                ->schema([
+                    TextInput::make('name')
+                        ->label('Название социальной сети')
+                        ->required()
+                        ->placeholder('Например: Facebook, Twitter, LinkedIn'),
+
+                    TextInput::make('url')
+                        ->label('Ссылка на социальную сеть')
+                        ->required()
+                        ->url()
+                        ->placeholder('https://example.com'),
+                ])
+                ->addActionLabel('Добавить социальную сеть')
+                ->reorderable()
+                ->collapsible()
+                ->minItems(1)
+                ->maxItems(10)
+                ->default([]),
+                Repeater::make('questions')
+                ->label('Вопросы и ответы')
+                ->schema([
+                    TextInput::make('question')
+                        ->label('Вопрос')
+                        ->required()
+                        ->placeholder('Введите вопрос'),
+
+                    Textarea::make('answer')
+                        ->label('Ответ')
+                        ->required()
+                        ->placeholder('Введите ответ'),
+                ])
+                ->addActionLabel('Добавить вопрос')
+                ->reorderable()
+                ->collapsible()
+                ->minItems(1)
+                ->maxItems(20)
+                ->default([]),
                 TextInput::make('address')->maxLength(255)->required(),
                 TextInput::make('map')->maxLength(255)->required(),
                 TextInput::make('mail')->maxLength(255)->required(),
@@ -41,8 +76,24 @@ class AboutResource extends Resource
             ->columns([
                 TextColumn::make(name: 'id')->sortable()->searchable(),
                 TextColumn::make('title')->sortable()->searchable(),
-                TextColumn::make('socials_networks')->label('Social Networks')->sortable()->searchable(),
-                TextColumn::make('questions')->label('Questions')->sortable()->searchable(),
+                TextColumn::make('socials_networks')
+                    ->label('Social Networks')
+                    ->formatStateUsing(fn ($state) =>
+                    is_string($state) && ($decoded = json_decode($state, true)) && is_array($decoded) && isset($decoded['name'])
+                        ? $decoded['name'] // Показываем только имя соцсети
+                        : 'No Data'
+                    ),
+
+                TextColumn::make('questions')
+                    ->label('Questions')
+                    ->formatStateUsing(fn ($state) =>
+                    is_string($state) && ($decoded = json_decode($state, true)) && is_array($decoded)
+                        ? (isset($decoded['question']) && isset($decoded['answer'])
+                        ? '<b>' . e($decoded['question']) . '</b>: ' . e($decoded['answer'])
+                        : 'Invalid data')
+                        : 'No Questions Available'
+                    )
+                    ->html(),
                 TextColumn::make('address')->searchable(),
                 TextColumn::make('map')->limit(255)->searchable(),
                 TextColumn::make('mail')->searchable(),
@@ -79,3 +130,5 @@ class AboutResource extends Resource
         ];
     }
 }
+
+

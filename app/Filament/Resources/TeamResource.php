@@ -26,7 +26,7 @@ class TeamResource extends Resource
         return $form
             ->schema([
                 TextInput::make('name')->maxLength(255)->required(),
-                FileUpload::make('photo')->image()->directory('uploads/teams/photos')->maxSize(2048)->required(),
+                FileUpload::make('photo')->disk('public')->directory('uploads/teams/photos')->image()->imageEditor()->maxSize(1024)->required(),
                 TextInput::make('profession')->maxLength(255)->required(),
                 TextInput::make('description')->maxLength(500)->required(),
                 Select::make('stars')->options([
@@ -36,10 +36,7 @@ class TeamResource extends Resource
                         '4' => '4 звезды',
                         '5' => '5 звезд',
                 ])->required()->searchable()->native(false),
-                KeyValue::make('socials_networks')
-                ->keyLabel('Социальные Сети')
-                ->valueLabel('Ссылка на Социальную Сеть')
-                ->addButtonLabel('Добавить Соц Сеть')->required(),
+                KeyValue::make('socials_networks')->required(),
             ]);
     }
 
@@ -49,7 +46,7 @@ class TeamResource extends Resource
             ->columns([
                 TextColumn::make('id')->sortable()->searchable(),
                 TextColumn::make('name')->sortable()->searchable(),
-                ImageColumn::make('photo')->sortable()->searchable(),
+                ImageColumn::make('photo')->disk('public')->defaultImageUrl('uploads/teams/photos')->size(70)->circular()->sortable()->searchable(),
                 TextColumn::make('profession')->sortable()->searchable(),
                 TextColumn::make('description'),
                 BadgeColumn::make('stars')->colors([

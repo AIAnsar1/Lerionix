@@ -23,7 +23,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             AboutSeeder::class,
             OrderSeeder::class,
-            TagsSeeder::class,
+            // TagsSeeder::class,
             PortfolioSeeder::class,
             TeamSeeder::class,
             UserSeeder::class,

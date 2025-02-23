@@ -43,4 +43,15 @@ class Team extends Model
             'updated_at' => 'datetime',
         ];
     }
+
+
+    public function getSocialsNetworksAttribute($value)
+    {
+        if (is_array($value)) {
+            return $value;
+        }
+
+        return json_decode($value, true);
+    }
+
 }

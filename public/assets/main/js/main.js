@@ -2,20 +2,25 @@ document.addEventListener("DOMContentLoaded", function () {
     var form = document.querySelector("form");
 
     form.addEventListener("submit", function (event) {
-        event.preventDefault();
+        event.preventDefault(); // Останавливаем стандартную отправку формы
 
         var formData = new FormData(form);
 
-        fetch("contact.php", {
+        fetch(form.action, {
             method: "POST",
-            body: formData
+            body: formData,
+            headers: {
+                "X-Requested-With": "XMLHttpRequest", // AJAX-запрос
+                "X-CSRF-TOKEN": document.querySelector('input[name="_token"]').value // CSRF-токен
+            }
         })
-            .then(response => response.text())
+            .then(response => response.json()) // Ожидаем JSON-ответ
             .then(result => {
-                if (result === "Success") {
+                if (result.success) {
                     showNotification("Message sent successfully", "success");
+                    form.reset(); // Очищаем форму
                 } else {
-                    showNotification("Message sent successfully", "success");
+                    showNotification("Error: " + result.message, "error");
                 }
             })
             .catch(error => {

@@ -13,6 +13,6 @@ class PortfolioSeeder extends Seeder
      */
     public function run(): void
     {
-        Portfolio::factory()->count(500)->create();
+        Portfolio::factory()->count(13)->create();
     }
 }

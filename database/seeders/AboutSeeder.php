@@ -13,6 +13,6 @@ class AboutSeeder extends Seeder
      */
     public function run(): void
     {
-        About::factory()->count(500)->create();
+        About::factory()->count(13)->create();
     }
 }
