@@ -207,54 +207,66 @@
       </div>
       <div class="scroller" data-speed="slow">
         <div class="scroller__inner">
-          @foreach ($team as $members)
-         <div class="bordered-box flex-lg-row flex-column  d-flex gap-16">
-          <div class="img padding-8">
-            <img src="{{ asset('storage/' . $members->photo) }}" alt="person">
-          </div>
-          <div class="d-flex flex-column gap-8">
-            <p class="body-1">
-              {{ $members->description }}
-            </p>
-            <hr>
-            <div class="d-flex flex-lg-row flex-column  justify-content-between align-items-start ">
-              <div class="d-flex flex-column">
-                <h3 class="heading-3">{{ $members->name }}g</h3>
-                <p class="body-1">{{ $members->profession }}r</p>
-              </div>
-              <div class="d-flex gap-2 ">
-                {!! str_repeat('<i class="fa-solid fa-star primary-text icon-sm"></i>', 5) !!}
-              </div>
-            </div>
-          </div>
-        </div>
-         @endforeach
+            @foreach ($review as $member)
+                <div class="bordered-box flex-lg-row flex-column  d-flex gap-16">
+                    <div class="img padding-8">
+                        <img src="{{ asset('storage/' . $member->photo) }}" alt="person">
+                    </div>
+                    <div class="d-flex flex-column gap-8">
+                        <p class="body-1">
+                            {{ $member->description }}
+                        </p>
+                        <hr>
+                        <div class="d-flex flex-lg-row flex-column justify-content-between align-items-start">
+                            <div class="d-flex flex-column">
+                                <h3 class="heading-3">{{ $member->title }}</h3>
+                                <p class="body-1">{{ $member->company_title }}</p>
+                            </div>
+                            <div class="d-flex gap-2">
+                                @php
+                                    // Проверяем, есть ли у отзыва поле 'ratings' и преобразуем в число
+                                    $rating = is_numeric($member->ratings) ? (int) $member->ratings : 0;
+                                    $rating = min(max($rating, 0), 5); // Убедимся, что рейтинг от 0 до 5
+                                @endphp
+                                {!! str_repeat('<i class="fa-solid fa-star primary-text icon-sm"></i>', $rating) !!}
+                                {!! str_repeat('<i class="fa-regular fa-star icon-sm"></i>', 5 - $rating) !!}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
         </div>
     </div>
       <div class="scroller" data-speed="slow" data-direction="right">
         <div class="scroller__inner ">
-         @foreach ($team as $members)
-         <div class="bordered-box flex-lg-row flex-column  d-flex gap-16">
-          <div class="img padding-8">
-            <img src="{{ asset('storage/' . $members->photo) }}" alt="person">
-          </div>
-          <div class="d-flex flex-column gap-8">
-            <p class="body-1">
-              {{ $members->description }}
-            </p>
-            <hr>
-            <div class="d-flex flex-lg-row flex-column  justify-content-between align-items-start ">
-              <div class="d-flex flex-column">
-                <h3 class="heading-3">{{ $members->name }}g</h3>
-                <p class="body-1">{{ $members->profession }}r</p>
-              </div>
-              <div class="d-flex gap-2 ">
-                {!! str_repeat('<i class="fa-solid fa-star primary-text icon-sm"></i>', 5) !!}
-              </div>
-            </div>
-          </div>
-        </div>
-         @endforeach
+            @foreach ($review as $member)
+                <div class="bordered-box flex-lg-row flex-column  d-flex gap-16">
+                    <div class="img padding-8">
+                        <img src="{{ asset('storage/' . $member->photo) }}" alt="person">
+                    </div>
+                    <div class="d-flex flex-column gap-8">
+                        <p class="body-1">
+                            {{ $member->description }}
+                        </p>
+                        <hr>
+                        <div class="d-flex flex-lg-row flex-column justify-content-between align-items-start">
+                            <div class="d-flex flex-column">
+                                <h3 class="heading-3">{{ $member->title }}</h3>
+                                <p class="body-1">{{ $member->company_title }}</p>
+                            </div>
+                            <div class="d-flex gap-2">
+                                @php
+                                    // Проверяем, есть ли у отзыва поле 'ratings' и преобразуем в число
+                                    $rating = is_numeric($member->ratings) ? (int) $member->ratings : 0;
+                                    $rating = min(max($rating, 0), 5); // Убедимся, что рейтинг от 0 до 5
+                                @endphp
+                                {!! str_repeat('<i class="fa-solid fa-star primary-text icon-sm"></i>', $rating) !!}
+                                {!! str_repeat('<i class="fa-regular fa-star icon-sm"></i>', 5 - $rating) !!}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
         </div>
       </div>
     </div>
@@ -267,10 +279,10 @@
     <img class="shape blury blury-2" src="{{ asset('assets/main/images/shapes/bbblurry.svg') }}" alt="shape">
     <div class="container section">
       <div class="col-lg-10 py-4 my-4 d-flex flex-column gap-16">
-        <h1 class="heading-1 col-12 ">Choose Your <span class="primary-text">Pricing Plan</span>
+        <h1 class="heading-1 col-12 ">Choose Your <span class="primary-text">Pricing Plan 💸</span>
         </h1>
-        <p class="body-1">Transform your business with our innovative IT solutions. From streamlined cloud
-          integration to robust cybersecurity.</p>
+        <p class="body-1">Enhance your business with our cutting-edge IT solutions.
+            From seamless cloud integration to advanced cybersecurity, we provide tailored services to drive efficiency and security.</p>
       </div>
       <div class="row justify-content-center align-items-center g-4 ">
         <div class="col-lg-4 col-md-6 col-12">
@@ -290,23 +302,23 @@
             <div class="d-flex flex-column gap-16">
               <div class="d-flex align-items-center gap-16">
                 <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
-                <p class="body-1 fw-bold m-0 p-0">email & comunication services</p>
+                <p class="body-1 fw-bold m-0 p-0">Email & communication services</p>
               </div>
               <div class="d-flex align-items-center gap-16">
                 <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
-                <p class="body-1 fw-bold m-0 p-0">basic data backup and storage</p>
+                <p class="body-1 fw-bold m-0 p-0">Basic data backup and storage</p>
               </div>
               <div class="d-flex align-items-center gap-16">
                 <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
-                <p class="body-1 fw-bold m-0 p-0">standard security measuring</p>
+                <p class="body-1 fw-bold m-0 p-0">Standard security measures</p>
               </div>
               <div class="d-flex align-items-center gap-16">
                 <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
-                <p class="body-1 fw-bold m-0 p-0">limited software support</p>
+                <p class="body-1 fw-bold m-0 p-0">Limited software support</p>
               </div>
               <div class="d-flex align-items-center gap-16">
                 <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
-                <p class="body-1 fw-bold m-0 p-0">suitable for small business</p>
+                <p class="body-1 fw-bold m-0 p-0">Ideal for small businesses</p>
               </div>
             </div>
             <a href="#" class="btn">get started</a>
@@ -332,23 +344,23 @@
             <div class="d-flex flex-column gap-16">
               <div class="d-flex align-items-center gap-16">
                 <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
-                <p class="body-1 fw-bold m-0 p-0">email & comunication services</p>
+                <p class="body-1 fw-bold m-0 p-0">Email & communication services</p>
               </div>
               <div class="d-flex align-items-center gap-16">
                 <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
-                <p class="body-1 fw-bold m-0 p-0">basic data backup and storage</p>
+                <p class="body-1 fw-bold m-0 p-0">Advanced data backup and storage</p>
               </div>
               <div class="d-flex align-items-center gap-16">
                 <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
-                <p class="body-1 fw-bold m-0 p-0">standard security measuring</p>
+                <p class="body-1 fw-bold m-0 p-0">Enhanced security measures</p>
               </div>
               <div class="d-flex align-items-center gap-16">
                 <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
-                <p class="body-1 fw-bold m-0 p-0">limited software support</p>
+                <p class="body-1 fw-bold m-0 p-0">Extended software support</p>
               </div>
               <div class="d-flex align-items-center gap-16">
                 <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
-                <p class="body-1 fw-bold m-0 p-0">suitable for small business</p>
+                <p class="body-1 fw-bold m-0 p-0">Perfect for growing businesses</p>
               </div>
             </div>
             <a href="#" class="btn">get started</a>
@@ -371,23 +383,23 @@
             <div class="d-flex flex-column gap-16">
               <div class="d-flex align-items-center gap-16">
                 <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
-                <p class="body-1 fw-bold m-0 p-0">email & comunication services</p>
+                <p class="body-1 fw-bold m-0 p-0">Email & communication services</p>
               </div>
               <div class="d-flex align-items-center gap-16">
                 <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
-                <p class="body-1 fw-bold m-0 p-0">basic data backup and storage</p>
+                <p class="body-1 fw-bold m-0 p-0">Comprehensive data backup and storage</p>
               </div>
               <div class="d-flex align-items-center gap-16">
                 <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
-                <p class="body-1 fw-bold m-0 p-0">standard security measuring</p>
+                <p class="body-1 fw-bold m-0 p-0">Premium security measures</p>
               </div>
               <div class="d-flex align-items-center gap-16">
                 <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
-                <p class="body-1 fw-bold m-0 p-0">limited software support</p>
+                <p class="body-1 fw-bold m-0 p-0">Full software support</p>
               </div>
               <div class="d-flex align-items-center gap-16">
                 <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
-                <p class="body-1 fw-bold m-0 p-0">suitable for small business</p>
+                <p class="body-1 fw-bold m-0 p-0">Designed for large enterprises</p>
               </div>
             </div>
             <a href="#" class="btn">get started</a>
@@ -439,25 +451,31 @@
                 <h2 class="heading-2 m-0 p-0">{{ $member->name }}</h2>
                 <p class="body-1 m-0 p-0">{{ $member->profession }}</p>
               </div>
-              @if (!empty($member->socials_networks) && is_array($member->socials_networks))
-              <div class="icons d-flex gap-2">
-                @foreach ($member->socials_networks as $platform => $link)
-                  @if (!empty($link) && filter_var($link, FILTER_VALIDATE_URL))
-                  <div class="icon bordered-box d-flex justify-content-center align-items-center">
-                    <a href="{{ $link }}" target="_blank" rel="noopener noreferrer">
-                      @if ($platform === 'Instagram')
-                        <i class="fa-brands fa-instagram primary-text icon-sm"></i>
-                      @elseif ($platform === 'Telegram')
-                        <i class="fa-brands fa-telegram primary-text icon-sm"></i>
-                      @elseif ($platform === 'X')
-                        <i class="fa-brands fa-x-twitter primary-text icon-sm"></i>
-                      @endif
-                    </a>
-                  </div>
-                  @endif
-                @endforeach
-              </div>
-              @endif
+                @if (!empty($member->socials_networks) && (is_array($member->socials_networks) || is_object($member->socials_networks)))
+                    <div class="icons d-flex gap-2">
+                        @foreach ($member->socials_networks as $platform => $link)
+                            @php
+                                $platform = strtolower($platform);
+                                if (!str_starts_with($link, 'http')) {
+                                    $link = 'https://' . $link;
+                                }
+                            @endphp
+                            @if (!empty($link))
+                                <div class="icon bordered-box d-flex justify-content-center align-items-center">
+                                    <a href="{{ $link }}" target="_blank" rel="noopener noreferrer">
+                                        @if ($platform === 'instagram')
+                                            <i class="fa-brands fa-instagram primary-text icon-sm"></i>
+                                        @elseif ($platform === 'telegram')
+                                            <i class="fa-brands fa-telegram primary-text icon-sm"></i>
+                                        @elseif ($platform === 'x' || $platform === 'twitter')
+                                            <i class="fa-brands fa-x-twitter primary-text icon-sm"></i>
+                                        @endif
+                                    </a>
+                                </div>
+                            @endif
+                        @endforeach
+                    </div>
+                @endif
             </div>
           </div>
           @endforeach
@@ -465,6 +483,7 @@
       </div>
     </div>
 </section>
+
 
 
 

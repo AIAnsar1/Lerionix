@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Review;
 use App\Models\User;
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -23,10 +24,11 @@ class DatabaseSeeder extends Seeder
         $this->call([
             AboutSeeder::class,
             OrderSeeder::class,
-            // TagsSeeder::class,
+            TagsSeeder::class,
             PortfolioSeeder::class,
             TeamSeeder::class,
             UserSeeder::class,
+            ReviewSeeder::class,
         ]);
     }
 }

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\{About, Order, Portfolio, Team};
+use App\Models\{About, Order, Portfolio, Review, Team};
 use App\Http\Requests\StoreRequest\StoreOrderRequest;
 use Illuminate\Http\Request;
 
@@ -14,6 +14,7 @@ class MainController extends Controller
             "about" => About::all(),
             "order" => Order::all(),
             "team" => Team::all(),
+            "review" => Review::all(),
         ]);
     }
 
