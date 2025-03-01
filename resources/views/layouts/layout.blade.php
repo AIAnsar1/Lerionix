@@ -62,6 +62,12 @@
           text-shadow: 0 0 8px var(--hover-glow);
       }
 
+      .logo {
+        width: 53px;  /* Уменьшенный размер, можно изменить */
+        height: 60px;  /* Сохранение пропорций */
+        object-fit: contain;  /* Чтобы не обрезало */
+      }
+
 
 
   </style>
@@ -69,15 +75,11 @@
   <header class="header">
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container d-flex align-items-center gap-3">
+        <img src="{{ asset('assets/main/images/logo.png') }}" alt="Lerionix Logo" class="logo">
         <a href="{{ route('home') }}">
           <h3 class="heading-2 primary-text">Lerionix</h3>
         </a>
-          <div class="d-flex gap-3">
-              <a href="https://t.me/Lerionix" class="social-link"><i class="fa-brands fa-telegram icon-sm"></i></a>
-              <a href="https://www.instagram.com/lerionix" class="social-link"><i class="fa-brands fa-instagram icon-sm "></i></a>
-              <a href="https://x.com/Lerionix" class="social-link"><i class="fa-brands fa-x-twitter icon-sm"></i></a>
-              <a href="https://www.linkedin.com/in/Lerionix/?locale=en_US" class="social-link"><i class="fa-brands fa-linkedin-in icon-sm"></i></a>
-          </div>
+          
         <!-- if you prefer to use an image as logo -->
         <!-- <a class="navbar-brand " href="#"><img src="images/logo/logo.png" class="logo" alt="LOGO"></a> -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

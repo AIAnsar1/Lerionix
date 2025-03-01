@@ -360,7 +360,15 @@
               </div>
               <div class="d-flex align-items-center gap-16">
                 <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
-                <p class="body-1 fw-bold m-0 p-0">Perfect for growing businesses</p>
+                <p class="body-1 fw-bold m-0 p-0">Priority customer support</p>
+              </div>
+              <div class="d-flex align-items-center gap-16">
+                <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
+                <p class="body-1 fw-bold m-0 p-0">Team collaboration tools</p>
+              </div>
+              <div class="d-flex align-items-center gap-16">
+                <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
+                <p class="body-1 fw-bold m-0 p-0">Integration with third-party apps</p>
               </div>
             </div>
             <a href="#" class="btn">get started</a>
@@ -399,7 +407,27 @@
               </div>
               <div class="d-flex align-items-center gap-16">
                 <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
-                <p class="body-1 fw-bold m-0 p-0">Designed for large enterprises</p>
+                <p class="body-1 fw-bold m-0 p-0">Dedicated account manager</p>
+              </div>
+              <div class="d-flex align-items-center gap-16">
+                <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
+                <p class="body-1 fw-bold m-0 p-0">24/7 premium support</p>
+              </div>
+              <div class="d-flex align-items-center gap-16">
+                <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
+                <p class="body-1 fw-bold m-0 p-0">Customizable features & API access</p>
+              </div>
+              <div class="d-flex align-items-center gap-16">
+                <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
+                <p class="body-1 fw-bold m-0 p-0">Advanced analytics & reporting</p>
+              </div>
+              <div class="d-flex align-items-center gap-16">
+                <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
+                <p class="body-1 fw-bold m-0 p-0">Unlimited users & multi-team management</p>
+              </div>
+              <div class="d-flex align-items-center gap-16">
+                <i class="fa-solid fa-circle-check primary-text icon-sm"></i>
+                <p class="body-1 fw-bold m-0 p-0">Cloud scalability & performance optimization</p>
               </div>
             </div>
             <a href="#" class="btn">get started</a>
