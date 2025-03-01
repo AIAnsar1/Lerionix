@@ -575,7 +575,7 @@
             <div class="d-flex flex-column gap-16 w-100 ">
               <div class="d-flex gap-16">
                 <i class="fa-brands fa-instagram primary-text  icon-md"></i>
-                <h3 class="heading-2 m-0 p-0 text-lowercase">imal.company</h3>
+                <h3 class="heading-2 m-0 p-0 text-lowercase">Lerionix</h3>
               </div>
               <hr class="m-0 p-0 ">
             </div>
@@ -653,7 +653,7 @@
       <div class="row justify-content-center align-items-center  my-4 ">
         <a href="#"
           class="d-flex justify-content-center justify-content-lg-start  col-lg-3 col-md-6 col-12 mt-lg-0 mt-2 ">
-          <h3 class="heading-2 primary-text">IMAL</h3>
+          <h3 class="heading-2 primary-text">Lerionix</h3>
         </a>
         <div class="d-flex justify-content-center gap-16 col-lg-3 col-md-6 col-12 mt-lg-0 mt-2 ">
           <a href="#" class="footer-link">home</a>
@@ -668,7 +668,7 @@
             <a href="https://www.linkedin.com/in/Lerionix/?locale=en_US" class="social-link"><i class="fa-brands fa-linkedin-in icon-sm"></i></a>
         </div>
         <div class="col-lg-3 col-md-6 col-12 d-flex  justify-content-md-end justify-content-center  mt-lg-0 mt-2">
-          <p class="copy">copyright © 2024 imal</p>
+          <p class="copy">All rights reserved © 2025 Lerionix LLC</p>
         </div>
       </div>
     </div>
